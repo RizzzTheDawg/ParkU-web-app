@@ -1,2 +1,31 @@
-# bracu-digital-parking-web-app
-A web application for BRAC University that enables digital parking slot booking with QR code verification. Users can reserve parking spots online, and security personnel can scan QR codes for fast and secure entry verification and management.
+# BRACU Digital Parking Booking System 🚗
+
+A web app for BRAC University that allows digital parking slot booking with QR code verification. Users can book slots online, and security personnel can verify entries by scanning QR codes.
+
+---
+
+## 🔧 Tech Stack
+
+- **Frontend:** React.js, HTML, CSS, Bootstrap
+- **Backend:** Python, Flask, REST API
+- **Database:** MySQL
+- **Others:** QRCode (Python), JWT Auth, Axios
+
+---
+
+## ✨ Key Features
+
+- Online parking slot reservation
+- QR code generation & scanning
+- User & Admin roles
+- Booking management dashboard
+
+---
+
+## 🚀 Run Locally
+
+### Backend
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py

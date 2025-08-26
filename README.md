@@ -1,4 +1,4 @@
-# BRACU Digital Parking Booking System 🚗
+# ParkU-Web-App
 
 A web app for BRAC University that allows digital parking slot booking with QR code verification. Users can book slots online, and security personnel can verify entries by scanning QR codes.
 

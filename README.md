@@ -22,9 +22,7 @@ A web app for BRAC University that allows digital parking slot booking with QR c
 
 ---
 
-## 🚀 Run Locally
-
-### Backend
+### 1. Backend
 ```bash
 cd backend
 pip install -r requirements.txt

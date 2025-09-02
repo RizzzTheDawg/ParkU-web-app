@@ -7,3 +7,6 @@ class userService:
     def register(self, user):
         data=UserRequest(user)
         return self.repo.create(data)
+    def login(self,user):
+        data=UserResponse(user)
+        return self.repo.get_by_id(data)

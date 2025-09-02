@@ -12,3 +12,9 @@ def create():
     data = request.get_json()
     user_data = service.register(data)
     return jsonify({"message": user_data})
+
+@user_bp.route("/user", methods=["GET"])
+def login():
+    data = request.get_json()
+    user_data = service.login(data)
+    return jsonify({"message": user_data})
